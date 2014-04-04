@@ -1,7 +1,7 @@
-WC    := $(shell pwd)
+WC    ?= $(shell pwd)
 NGINX := /opt/nginx/sbin/nginx
 
-.PHONY : all env start restart test
+.PHONY : all env start restart test release mount mntram
 
 all:start
 
@@ -13,4 +13,12 @@ test:
 	$(NGINX) -t -p $(WC) -c $(WC)/conf/nginx.conf
 env:
 	mkdir -p $(WC)/logs
-	
+
+release:
+	sudo cp -rf ./* /opt/www_tmpfs/wvRoot/
+	sudo make WC=/opt/www_tmpfs/wvRoot/ all
+mntram:
+	sudo mkdir -p /opt/www_tmpfs/wvRoot
+	sudo mount tmpfs /opt/www_tmpfs/wvRoot -t tmpfs -o size=256m
+	sudo touch /opt/www_tmpfs/wvRoot/tmp_mount_lock
+
