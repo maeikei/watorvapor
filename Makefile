@@ -17,6 +17,9 @@ env:
 release:
 	sudo cp -rf ./* /opt/www_tmpfs/wvRoot/
 	sudo make WC=/opt/www_tmpfs/wvRoot/ all
+patch-release:
+	sudo cp -rf ./* /opt/www_tmpfs/wvRoot/
+	sudo make WC=/opt/www_tmpfs/wvRoot/ restart
 mntram:
 	sudo mkdir -p /opt/www_tmpfs/wvRoot
 	sudo mount tmpfs /opt/www_tmpfs/wvRoot -t tmpfs -o size=256m
