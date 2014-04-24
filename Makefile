@@ -1,5 +1,6 @@
 WC    ?= $(shell pwd)
 NGINX := /opt/nginx/sbin/nginx
+NGINX := nginx
 
 .PHONY : all env start restart test release mount mntram
 
