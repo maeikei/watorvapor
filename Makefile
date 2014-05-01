@@ -2,7 +2,7 @@ WC    ?= $(shell pwd)
 NGINX := /opt/nginx/sbin/nginx
 NGINX := nginx
 
-.PHONY : all env start restart test release mount mntram
+.PHONY : all env start restart test release mount mntram apache2
 
 all:start
 
@@ -14,6 +14,11 @@ test:
 	$(NGINX) -t -p $(WC) -c $(WC)/conf/nginx.conf
 env:
 	mkdir -p $(WC)/logs
+
+apache2:
+	sudo cp -rf ./apache2/ports.conf /etc/apache2/ports.conf
+	sudo cp -f ./apache2/php5/apache2/php.ini /etc/php5/apache2/
+	sudo service apache2 restart
 
 release:
 	sudo cp -rf ./* /opt/www_tmpfs/wvRoot/
