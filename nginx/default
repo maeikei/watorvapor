@@ -11,6 +11,10 @@
 
 
 
+	upstream home.watorvapor.com {
+		server 127.0.0.1:20080;
+		#server 192.168.0.70;
+    }
 
 	upstream wvbox.watorvapor.com {
 		server 127.0.0.1:8080;
@@ -54,8 +58,9 @@
         client_max_body_size 100M;
 
         location / {
-            root   html;
-            index  index.html index.htm;
+               proxy_pass       http://home.watorvapor.com;
+               proxy_set_header X-Real-IP $remote_addr;
+               proxy_set_header Host $host;
         }
 
         location ^~ /wvCamera/ {
