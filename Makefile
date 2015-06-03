@@ -7,6 +7,7 @@ start:setup ram release
 	echo "auto start"
 release:
 	cp -rf watorvapor/* /mnt/tmpfs/watorvapor/
+	cp -rf watorvapor/.env* /mnt/tmpfs/watorvapor/
 	sudo chmod -R 777 /mnt/tmpfs/watorvapor/vendor
 	sudo chmod -R 777 /mnt/tmpfs/watorvapor/storage	
 setup:
