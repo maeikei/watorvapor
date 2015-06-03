@@ -139,11 +139,11 @@ return [
 		/*
 		 * Application Service Providers...
 		 */
-		'App\Providers\AppServiceProvider',
-		'App\Providers\BusServiceProvider',
-		'App\Providers\ConfigServiceProvider',
-		'App\Providers\EventServiceProvider',
-		'App\Providers\RouteServiceProvider',
+		'Watorvapor\Providers\AppServiceProvider',
+		'Watorvapor\Providers\BusServiceProvider',
+		'Watorvapor\Providers\ConfigServiceProvider',
+		'Watorvapor\Providers\EventServiceProvider',
+		'Watorvapor\Providers\RouteServiceProvider',
 
 	],
 

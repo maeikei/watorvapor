@@ -1,4 +1,4 @@
-<?php namespace App\Events;
+<?php namespace Watorvapor\Events;
 
 abstract class Event {
 

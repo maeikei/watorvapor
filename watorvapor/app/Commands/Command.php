@@ -1,4 +1,4 @@
-<?php namespace App\Commands;
+<?php namespace Watorvapor\Commands;
 
 abstract class Command {
 

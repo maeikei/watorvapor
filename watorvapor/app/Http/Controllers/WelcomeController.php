@@ -1,4 +1,4 @@
-<?php namespace App\Http\Controllers;
+<?php namespace Watorvapor\Http\Controllers;
 
 class WelcomeController extends Controller {
 
