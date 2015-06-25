@@ -16,7 +16,7 @@
 	</div>
 	<div class="row" >
         <div class="col-md-10 col-md-offset-1">
-            三十年后人工智能进化出强人工智能
+            三十年后进化出强人工智能
         </div>
 		<div class="col-md-10 col-md-offset-1">
 			<a href="{{ asset('assets/img/ai.nl.jpg') }}" ><img height="120"src="{{ asset('assets/img/ai.nl.jpg') }}"><a>
