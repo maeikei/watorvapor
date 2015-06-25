@@ -3,6 +3,9 @@
 @section('content')
 <div class="container">
 	<div class="row" >
+        <div class="col-md-10 col-md-offset-1">
+            大脑的研究
+        </div>
 		<div class="col-md-10 col-md-offset-1">
 			<a href="{{ asset('assets/img/brain.orig.png') }}" ><img height="120"src="{{ asset('assets/img/brain.orig.png') }}"><a>
 			<a href="{{ asset('assets/img/brain.header.jpg') }}" ><img height="120"src="{{ asset('assets/img/brain.header.jpg') }}"><a>
