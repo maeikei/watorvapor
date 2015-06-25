@@ -4,7 +4,7 @@
 <div class="container">
 	<div class="row" >
         <div class="col-md-10 col-md-offset-1">
-            人脑基础研究
+            三十年后人脑基础研究完成
         </div>
 		<div class="col-md-10 col-md-offset-1">
 			<a href="{{ asset('assets/img/brain.orig.png') }}" ><img height="120"src="{{ asset('assets/img/brain.orig.png') }}"><a>
@@ -16,7 +16,7 @@
 	</div>
 	<div class="row" >
         <div class="col-md-10 col-md-offset-1">
-            人工智能进化
+            三十年后人工智能进化出强人工智能
         </div>
 		<div class="col-md-10 col-md-offset-1">
 			<a href="{{ asset('assets/img/ai.nl.jpg') }}" ><img height="120"src="{{ asset('assets/img/ai.nl.jpg') }}"><a>
@@ -27,7 +27,7 @@
 	</div>
 	<div class="row" >
         <div class="col-md-10 col-md-offset-1">
-            大脑数据读取
+            四十年后大脑数据读取
         </div>
 		<div class="col-md-10 col-md-offset-1">
 			<a href="{{ asset('assets/img/digital.Consciousness.reading.jpg') }}" ><img height="120"src="{{ asset('assets/img/digital.Consciousness.reading.jpg') }}"><a>
@@ -39,7 +39,7 @@
 	</div>
 	<div class="row" >
         <div class="col-md-10 col-md-offset-1">
-            人脑数据上传机器人
+            四十年后人脑数据上传机器人
         </div>
 		<div class="col-md-10 col-md-offset-1">
 			<a href="{{ asset('assets/img/robot.brain.vista.jpg') }}" ><img height="120"src="{{ asset('assets/img/robot.brain.vista.jpg') }}"><a>
@@ -50,7 +50,7 @@
 	</div>
 	<div class="row" >
         <div class="col-md-10 col-md-offset-1">
-            机器人宇航殖民
+            五十年后机器人宇航殖民
         </div>
 		<div class="col-md-10 col-md-offset-1">
 			<a href="{{ asset('assets/img/robot.rocket.block.jpg') }}" ><img height="120"src="{{ asset('assets/img/robot.rocket.block.jpg') }}"><a>
