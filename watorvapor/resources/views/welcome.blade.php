@@ -3,7 +3,7 @@
 @section('content')
 <div class="container">
 	<div class="row">
-		<div class="col">
+		<div class="col-md-10 col-md-offset-1">
 			<a href="{{ asset('assets/img/brain.orig.png') }}" ><img height="100" src="{{ asset('assets/img/brain.orig.png') }}"><a>
 			<a href="{{ asset('assets/img/brain.header.jpg') }}" ><img height="100" src="{{ asset('assets/img/brain.header.jpg') }}"><a>
 			<a href="{{ asset('assets/img/brain.king.jpg') }}" ><img height="100" src="{{ asset('assets/img/brain.king.jpg') }}"><a>
