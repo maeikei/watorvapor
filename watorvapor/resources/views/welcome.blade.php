@@ -4,7 +4,7 @@
 <div class="container">
 	<div class="row" >
         <div class="col-md-10 col-md-offset-1">
-            三十年后人脑基础研究完成
+            <div class="col-text">三十年后人脑基础研究完成</div>
         </div>
 		<div class="col-md-10 col-md-offset-1">
 			<a href="{{ asset('assets/img/brain.orig.png') }}" ><img height="120"src="{{ asset('assets/img/brain.orig.png') }}"><a>
@@ -16,7 +16,7 @@
 	</div>
 	<div class="row" >
         <div class="col-md-10 col-md-offset-1">
-            三十年后进化出强人工智能
+            <div class="col-text">三十年后进化出强人工智能</div>
         </div>
 		<div class="col-md-10 col-md-offset-1">
 			<a href="{{ asset('assets/img/ai.nl.jpg') }}" ><img height="120"src="{{ asset('assets/img/ai.nl.jpg') }}"><a>
@@ -27,7 +27,7 @@
 	</div>
 	<div class="row" >
         <div class="col-md-10 col-md-offset-1">
-            四十年后大脑数据读取
+            <div class="col-text">四十年后大脑数据读取</div>
         </div>
 		<div class="col-md-10 col-md-offset-1">
 			<a href="{{ asset('assets/img/digital.Consciousness.reading.jpg') }}" ><img height="120"src="{{ asset('assets/img/digital.Consciousness.reading.jpg') }}"><a>
@@ -39,7 +39,7 @@
 	</div>
 	<div class="row" >
         <div class="col-md-10 col-md-offset-1">
-            四十年后人脑数据上传机器人
+            <div class="col-text">四十年后人脑数据上传机器人</div>
         </div>
 		<div class="col-md-10 col-md-offset-1">
 			<a href="{{ asset('assets/img/robot.brain.vista.jpg') }}" ><img height="120"src="{{ asset('assets/img/robot.brain.vista.jpg') }}"><a>
@@ -50,7 +50,7 @@
 	</div>
 	<div class="row" >
         <div class="col-md-10 col-md-offset-1">
-            五十年后机器人宇航殖民
+            <div class="col-text">五十年后机器人宇航殖民</div>
         </div>
 		<div class="col-md-10 col-md-offset-1">
 			<a href="{{ asset('assets/img/robot.rocket.block.jpg') }}" ><img height="120"src="{{ asset('assets/img/robot.rocket.block.jpg') }}"><a>
@@ -61,7 +61,7 @@
 	</div>
 	<div class="row" >
         <div class="col-md-10 col-md-offset-1">
-            一百年后抵达开普勒星系，建立戴森球。
+            <div class="col-text">一百年后抵达开普勒星系，建立戴森球</div>
         </div>
 		<div class="col-md-10 col-md-offset-1">
 			<a href="{{ asset('assets/img/earth.kepler-20.jpg') }}" ><img height="120"src="{{ asset('assets/img/earth.kepler-20.jpg') }}"><a>
@@ -72,7 +72,7 @@
 	</div>
 	<div class="row" >
         <div class="col-md-10 col-md-offset-1">
-            两百年后抵达宜居行星，重新组建生物人类。
+            <div class="col-text">两百年后抵达宜居行星，重新组建生物人类</div>
         </div>
 		<div class="col-md-10 col-md-offset-1">
 			<a href="{{ asset('assets/img/human.robot.jpg') }}" ><img height="120"src="{{ asset('assets/img/human.robot.jpg') }}"><a>
