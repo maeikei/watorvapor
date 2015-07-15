@@ -19,11 +19,6 @@
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <body>
 		@yield('content')
-        <!--div class="container">
-            <div class="content">
-                <div class="title">Laravel 5</div>
-            </div>
-        </div-->
     </body>
 </html>
 
