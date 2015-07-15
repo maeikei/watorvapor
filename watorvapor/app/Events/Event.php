@@ -1,7 +1,8 @@
-<?php namespace Watorvapor\Events;
+<?php
 
-abstract class Event {
+namespace watorvapo\Events;
 
-	//
-
+abstract class Event
+{
+    //
 }

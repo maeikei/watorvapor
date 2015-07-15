@@ -1,5 +1,5 @@
 suites:
     main:
-        namespace: Watorvapor
-        psr4_prefix: Watorvapor
+        namespace: watorvapo
+        psr4_prefix: watorvapo
         src_path: app
