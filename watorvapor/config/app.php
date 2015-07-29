@@ -137,18 +137,18 @@ return [
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
 
+		/*
+		 * lang
+		 */
+		 /*
+	    Vluzrmos\LanguageDetector\LanguageDetector\Providers\ServiceProvider::class,
+		 */
         /*
          * Application Service Providers...
          */
         watorvapo\Providers\AppServiceProvider::class,
         watorvapo\Providers\EventServiceProvider::class,
         watorvapo\Providers\RouteServiceProvider::class,
-	/*
-	 * lang
-	 */
-	/*
-	Vluzrmos\LanguageDetector\LanguageDetector\Providers\ServiceProvider::class,
-	 */
     ],
 
     /*
