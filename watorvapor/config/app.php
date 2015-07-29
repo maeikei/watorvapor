@@ -143,7 +143,12 @@ return [
         watorvapo\Providers\AppServiceProvider::class,
         watorvapo\Providers\EventServiceProvider::class,
         watorvapo\Providers\RouteServiceProvider::class,
-
+	/*
+	 * lang
+	 */
+	/*
+	Vluzrmos\LanguageDetector\LanguageDetector\Providers\ServiceProvider::class,
+	 */
     ],
 
     /*

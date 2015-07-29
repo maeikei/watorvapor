@@ -41,6 +41,10 @@ $app->singleton(
     watorvapo\Exceptions\Handler::class
 );
 
+$app->register(
+	Vluzrmos\LanguageDetector\Providers\LanguageDetectorServiceProvider::class
+);
+
 /*
 |--------------------------------------------------------------------------
 | Return The Application
