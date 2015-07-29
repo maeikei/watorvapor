@@ -8,6 +8,7 @@ $baseDir = dirname($vendorDir);
 return array(
     'watorvapo\\' => array($baseDir . '/app'),
     'XdgBaseDir\\' => array($vendorDir . '/dnoegel/php-xdg-base-dir/src'),
+    'Vluzrmos\\LanguageDetector\\' => array($vendorDir . '/vluzrmos/language-detector/src'),
     'Symfony\\Component\\Yaml\\' => array($vendorDir . '/symfony/yaml'),
     'Symfony\\Component\\VarDumper\\' => array($vendorDir . '/symfony/var-dumper'),
     'Symfony\\Component\\Translation\\' => array($vendorDir . '/symfony/translation'),
