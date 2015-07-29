@@ -6,6 +6,7 @@
         <link href="//fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
         <link href="{{ asset('/css/app.css') }}" rel="stylesheet" type="text/css">
     </head>
+	<!-- jquery -->
 	<script>
   		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -15,9 +16,14 @@
   		ga('create', 'UA-47276237-1', 'watorvapor.com');
   		ga('send', 'pageview');
 	</script>
-	<!-- Scripts -->
+	<!-- jquery -->
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <body>
+		@include('navbar')
 		@yield('content')
     </body>
 </html>

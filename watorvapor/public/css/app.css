@@ -3,12 +3,13 @@ html, body {
 }
 
 body {
-	margin: 0;
-	padding: 0;
+	padding-top: 70px;
 	width: 100%;
 	display: table;
+/*
 	font-weight: 100;
 	font-family: 'Lato';
+*/
 }
 
 .container {
@@ -16,7 +17,7 @@ body {
 	display: table-cell;
 	vertical-align: middle;
 }
-
+/*
 .content {
 	text-align: center;
 	display: inline-block;
@@ -32,3 +33,4 @@ body {
     font-weight:bold;
     color:#00005f;
 }
+*/
