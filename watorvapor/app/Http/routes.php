@@ -11,11 +11,24 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+/*
+Route::get('/about', function () {
+    return view('about');
+});
+Route::get('/about/{locale}', function ($locale) {
+	App::setLocale($locale);
+    return view('about');
 });
 
 Route::get('/{locale}', function ($locale) {
 	App::setLocale($locale);
     return view('welcome');
 });
+
+
+Route::get('/', function () {
+    return view('welcome');
+});
+*/
+Route::get('/about/{locale?}', 'AboutController@index');
+Route::get('/{locale?}', 'WelcomeController@index');

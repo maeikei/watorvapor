@@ -18,11 +18,12 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Language <span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="./en">en</a></li>
-                <li><a href="./zh">zh</a></li>
-                <li><a href="./ja">ja</a></li>
+ 				<li><input type="button" value="en" class="language_button"></li>
+ 				<li><input type="button" value="zh" class="language_button"></li>
+ 				<li><input type="button" value="ja" class="language_button"></li>
               </ul>
             </li>
+			<li class="active"><a href="/">Fixed top <span class="sr-only">(current)</span></a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>

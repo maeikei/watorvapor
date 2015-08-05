@@ -8,7 +8,7 @@ use watorvapo\Http\Requests;
 use watorvapo\Http\Controllers\Controller;
 use App;
 
-class AboutController extends Controller
+class WelcomeController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -18,7 +18,7 @@ class AboutController extends Controller
     public function index($locale = null)
     {
 		App::setLocale($locale);
- 		return view('about');
+		return view('welcome');
     }
 
     /**
