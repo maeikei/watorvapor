@@ -2,5 +2,5 @@
 
 return [
     'watorvapor_about' => 'About WatorVapor',
-    'xuniverse' => 'xUniverse',
+    'xuniverse' => 'Virtual Universe',
 ];
