@@ -12,17 +12,24 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
+            <li><a href="/xuniverse">{{trans('navbar.xuniverse')}}</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="/xuniverse">{{trans('navbar.xuniverse')}}</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Language <span class="caret"></span></a>
-              <ul class="dropdown-menu">
- 				<li><input type="button" value="en" class="language_button"></li>
- 				<li><input type="button" value="zh" class="language_button"></li>
- 				<li><input type="button" value="ja" class="language_button"></li>
-              </ul>
-            </li>
+ 			<li>
+			  <button type="button" class="btn btn-default navbar-btn language_button" value="en" >
+			    <img src="{{ asset('/flags/us.svg') }}" alt="button" />
+			  </button>
+			</li>
+ 			<li>
+			  <button type="button" class="btn btn-default navbar-btn language_button" value="zh" >
+			    <img src="{{ asset('/flags/cn.svg') }}" alt="button" />
+			  </button>
+			</li>
+ 			<li>
+			  <button type="button" class="btn btn-default navbar-btn language_button" value="ja" >
+			    <img src="{{ asset('/flags/jp.svg') }}" alt="button" />
+			  </button>
+			</li>
 			<li class="active"><a href="/">Fixed top <span class="sr-only">(current)</span></a></li>
           </ul>
         </div><!--/.nav-collapse -->
