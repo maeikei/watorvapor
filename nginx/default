@@ -1,19 +1,9 @@
-
-	upstream wvCamera.watorvapor.com {
-		server 192.168.0.65:8443;
-
-	}
-	upstream wvCameraWss.watorvapor.com {
-		server 192.168.0.65:8453;
-
-	}
-
-
-
-
 	upstream home.watorvapor.com {
 		server 127.0.0.1:20080;
 		#server 192.168.0.70;
+    }
+	upstream xuniverse.watorvapor.com {
+		server 192.168.0.70;
     }
 
 	upstream wvbox.watorvapor.com {
@@ -62,21 +52,12 @@
                proxy_set_header X-Real-IP $remote_addr;
                proxy_set_header Host $host;
         }
+        location ^~ /xuniverse {
+               proxy_pass       http://xuniverse.watorvapor.com;
+               proxy_set_header X-Real-IP $remote_addr;
+               proxy_set_header Host $host;
+        }
 
-        location ^~ /wvCamera/ {
-               proxy_pass       https://wvCamera.watorvapor.com;
-               proxy_set_header X-Real-IP $remote_addr;
-               proxy_set_header Host $host;
-        }
-        location ^~ /wvCameraWss {
-               proxy_pass       https://wvCameraWss.watorvapor.com;
-               proxy_set_header X-Real-IP $remote_addr;
-               proxy_set_header Host $host;
-               proxy_http_version 1.1;
-               proxy_set_header Upgrade $http_upgrade;
-               proxy_set_header Connection "upgrade";
-        }
-        
         
         location ^~ /wvbox/ {
                proxy_pass       http://wvbox.watorvapor.com;
