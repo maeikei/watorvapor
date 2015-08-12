@@ -30,6 +30,11 @@
 			    <img src="{{ asset('/flags/jp.svg') }}" alt="button" />
 			  </button>
 			</li>
+ 			<li>
+			  <button type="button" class="btn btn-default navbar-btn language_button" value="ru" >
+			    <img src="{{ asset('/flags/ru.svg') }}" alt="button" />
+			  </button>
+			</li>
 			<li class="active"><a href="/">Fixed top <span class="sr-only">(current)</span></a></li>
           </ul>
         </div><!--/.nav-collapse -->

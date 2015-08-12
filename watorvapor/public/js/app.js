@@ -1,5 +1,5 @@
 var SUPPORT_LANG = [
-	'en','zh','ja'
+	'en','zh','ja','ru'
 ]
 
 $(function () {
@@ -13,15 +13,14 @@ $(function () {
 		var index = SUPPORT_LANG.indexOf(lastName);
 		//console.log(index);
 		if(-1 == index) {
-			if('/'==window.location.pathname) {
-				url += this.value;
-			} else {
-				url += '/' + this.value;
+			if('' !=lastName) {
+				url += '/';
 			}
+			url += this.value;
 		} else {
 			url = url.replace(lastName, this.value);
 		}
 		//console.log(url);
-		window.location.replace(url);
+		window.location.href = url;
 	});
 });
