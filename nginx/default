@@ -5,6 +5,9 @@
 	upstream xuniverse.watorvapor.com {
 		server 192.168.0.70;
     }
+	upstream swc.watorvapor.com {
+		server 192.168.0.190;
+    }
 
 	upstream wvbox.watorvapor.com {
 		server 127.0.0.1:8080;
@@ -54,6 +57,11 @@
         }
         location ^~ /xuniverse {
                proxy_pass       http://xuniverse.watorvapor.com;
+               proxy_set_header X-Real-IP $remote_addr;
+               proxy_set_header Host $host;
+        }
+        location ^~ /swc {
+               proxy_pass       http://swc.watorvapor.com;
                proxy_set_header X-Real-IP $remote_addr;
                proxy_set_header Host $host;
         }
