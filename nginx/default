@@ -65,7 +65,8 @@
                proxy_set_header X-Real-IP $remote_addr;
                proxy_set_header Host $host;
         }
-        location ^~ /swc/video {
+        location ^~ /swc/video {auth_basic "Restricted";
+		auth_basic_user_file /etc/nginx/.htpasswd;
                proxy_pass       http://swc.watorvapor.com;
                proxy_set_header X-Real-IP $remote_addr;
                proxy_set_header Host $host;
