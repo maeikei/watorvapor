@@ -1,9 +1,9 @@
 	upstream home.watorvapor.com {
 		server 127.0.0.1:20080;
-		#server 192.168.0.70;
+		#server 192.168.0.80;
     }
 	upstream xuniverse.watorvapor.com {
-		server 192.168.0.70;
+		server 192.168.0.80;
     }
 	upstream swc.watorvapor.com {
 		server 192.168.0.190;
@@ -18,7 +18,7 @@
 
     
 	upstream jenkins.watorvapor.com {
-		server 192.168.0.70:8080;
+		server 192.168.0.80:8080;
     }
 
 	upstream wvHadoop.watorvapor.com {
@@ -27,7 +27,7 @@
     
     
 	upstream mculture.watorvapor.com {
-		server 192.168.0.70:3000;
+		server 192.168.0.80:3000;
     }
     # HTTP && HTTPS server
     #
